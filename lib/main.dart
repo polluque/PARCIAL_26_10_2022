@@ -35,8 +35,8 @@ class MyApp extends StatelessWidget {
               color: Colors.white,
               margin: EdgeInsets.symmetric(horizontal: 15.0, vertical: 8.0),
               child: ListTile(
-                 subtitle: Text("Email Address"),
-                 title: Text("paulluque26081997@hotmail.com"),
+                 subtitle: Text("paulluque26081997@hotmail.com"),
+                 title: Text("Email Address"),
                  leading: Icon(
                   Icons.mail,
                   color: Colors.indigo,
@@ -50,13 +50,13 @@ class MyApp extends StatelessWidget {
               color: Colors.white,
               margin: EdgeInsets.all(15.0),
               child: ListTile(
-                 title: Text(".........."),
-                 subtitle: Text("Password "),
+                 title: Text("Password"),
+                 subtitle: Text(".......... "),
                  leading: Icon(
                   Icons.lock_clock,
                   color: Colors.indigo,
                   ), // elemento que va a la izquierda del listtile
-                 trailing: Icon(Icons.panorama_fish_eye_sharp),  
+                 trailing: Icon(Icons.remove_red_eye_sharp),  
               ),
             ),
             ////// tercer box
@@ -65,8 +65,7 @@ class MyApp extends StatelessWidget {
               color: Colors.blueGrey,
               margin: EdgeInsets.all(10.0),
                child: ListTile(
-                 title:Text("Login"),
-                  
+                 title:Text("Login"),  
                  leading: Icon(
                   Icons.lock_open,
                   color: Colors.indigo,
@@ -77,7 +76,7 @@ class MyApp extends StatelessWidget {
             Text(
               'SingUp',
               style: TextStyle(
-                color: Colors.white38,
+                color: Colors.black,
                 fontSize: 18.0,
                 fontWeight: FontWeight.w300,
                 letterSpacing: 2.0,
